@@ -1,0 +1,41 @@
+<!--pages/list/list.wxml-->
+<view class='box'>
+    <view class='head'>
+        <view class='head_1'>{{sum1}}{{fu}}{{sum2}}</view>
+        <view>{{num}}</view>
+    </view>
+    <!-- <image src='/img/1.png' class='img'></image> -->
+    <view class='body'>
+        <view>
+            <view><button class="jsq" bindtap='del' data-value="CE">CE</button></view>
+            <view><button class="jsq" bindtap='del' data-value="C">C</button></view>
+            <view><button class="jsq" bindtap='del_one' data-value="E"><image src='/img/1.png' class='img'></image></button></view>
+            <view><button class="jsq" bindtap='h' data-value="÷">÷</button></view>
+        </view>
+        <view>
+            <view><button class="jsq" bindtap='d' data-value="7">7</button></view>
+            <view><button class="jsq" bindtap='d' data-value="8">8</button></view>
+            <view><button class="jsq" bindtap='d' data-value="9">9</button></view>
+            <view><button class="jsq" bindtap='h' data-value="*">*</button></view>
+        </view>
+        <view>
+            <view><button class="jsq" bindtap='d' data-value="4">4</button></view>
+            <view><button class="jsq" bindtap='d' data-value="5">5</button></view>
+            <view><button class="jsq" bindtap='d' data-value="6">6</button></view>
+            <view><button class="jsq" bindtap='h' data-value="-">-</button></view>
+        </view>
+        <view>
+            <view><button class="jsq" bindtap='d' data-value="1">1</button></view>
+            <view><button class="jsq" bindtap='d' data-value="2">2</button></view>
+            <view><button class="jsq" bindtap='d' data-value="3">3</button></view>
+            <view><button class="jsq" bindtap='h' data-value="+">+</button></view>
+        </view>
+        <view>
+            <view><button class="jsq" bindtap='h' data-value="±">±</button></view>
+            <view><button class="jsq" bindtap='d' data-value="0">0</button></view>
+            <view><button class="jsq" bindtap='d' data-value=".">.</button></view>
+            <view><button class="jsq" bindtap='den' data-value="=">=</button></view>
+        </view>
+    </view>
+
+</view>
